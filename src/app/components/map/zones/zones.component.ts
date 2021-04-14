@@ -84,7 +84,7 @@ export class ZonesComponent implements OnInit {
   }
 
   ngAfterViewInit() {
-    var map = panzoom(this.map.nativeElement, {
+    panzoom(this.map.nativeElement, {
       maxZoom: 3,
       minZoom: 1,
       transformOrigin: { x: 0.2, y: 0.2 },
