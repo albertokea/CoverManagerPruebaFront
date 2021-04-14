@@ -1,0 +1,17 @@
+li{
+    list-style: none;
+    color: var(--color-white);
+    border: 1px solid var(--color-grey);
+    padding: 1em;
+    margin-right: 3em;
+    cursor: pointer;
+    font-family: var(--font);
+}
+p{
+    width: 15%;
+    border: 1px solid var(--color-white);
+    color: var(--color-white);
+    padding: 10px;
+    position: absolute;
+    background-color:var(--color-grey);
+}

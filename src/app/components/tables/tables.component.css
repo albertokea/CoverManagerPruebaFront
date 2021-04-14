@@ -1,0 +1,23 @@
+input{
+    width: 90%;
+    margin: 0 5%;
+    height: 2em;
+    border-radius: 10px;
+}
+div{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+button{
+    border-radius: 5px;
+}
+ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+table{
+    margin: 1em 0;
+}
+
+

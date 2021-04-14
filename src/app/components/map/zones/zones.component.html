@@ -1,0 +1,6 @@
+<div class="container" #map>
+    <div *ngFor="let table of filteredTables">
+        <div class="table" [ngStyle]="{'margin-left': table.x + 'px', 'margin-top': table.y + 'px'}">
+            {{table.name_table}}</div>
+    </div>
+</div>

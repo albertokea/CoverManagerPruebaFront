@@ -1,0 +1,10 @@
+<input (keydown)="filterByName($event)" #input type="text" placeholder="Pulsa intro para buscar...">
+<div>
+    <button (click)="removeFilter()">Quitar filtro</button>
+</div>
+<ul *ngIf="!tableSearch">
+    <table *ngFor="let table of tables" [table]="table"></table>
+</ul>
+<ul *ngIf="tableSearch">
+    <table *ngFor="let table of tableFilteredByName" [table]="table"></table>
+</ul>

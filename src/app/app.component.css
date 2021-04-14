@@ -1,0 +1,13 @@
+.container{
+    background-color: var(--color-dark);
+    height: 100vh;
+    display: flex;
+}
+.floors{
+    width: 65%;
+    height: 80vh;
+}
+.tables{
+    width: 35%;
+    margin-top: 2em;
+}

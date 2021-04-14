@@ -1,0 +1,13 @@
+<zones [currentZone]="currentZone" #map></zones>
+<nav>
+    <button (click)="nextFloor()">Siguiente Planta</button>
+    <ul>
+        <li><a [ngClass]="{'active': currentFloor === 201}">Planta 1</a></li>
+    </ul>
+    <ul>
+        <li><a [ngClass]="{'active': currentFloor === 202}">Planta 2</a></li>
+    </ul>
+    <ul>
+        <li><a [ngClass]="{'active': currentFloor === 203}">Planta 3</a></li>
+    </ul>
+</nav>
